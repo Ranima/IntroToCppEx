@@ -19,8 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{79B78147-A679-4F1E-A5A7-91B0AB129A28}</ProjectGuid>
-    <RootNamespace>DeleteThis</RootNamespace>
+    <ProjectGuid>{8DAB1F60-9ED9-4071-BCA5-D6C5CB36B8A6}</ProjectGuid>
+    <RootNamespace>middleLetterFinder</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -110,6 +110,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
